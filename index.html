@@ -1,5 +1,13 @@
 <!DOCTYPE html>
-<html lang="nl" class="scroll-smooth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="nl" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,25 +15,32 @@
     <meta name="description" content="Verbeter uw nachtzicht met onze premium nachtbril. Past perfect over uw bestaande bril. Nu met 10% korting!">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body class="font-sans antialiased bg-white text-gray-900">
     <header class="fixed w-full bg-white/95 backdrop-blur-sm shadow-md z-50">
         <nav class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <div class="flex items-center justify-between">
-                <a href="/" class="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                <a href="https://readthisnow.github.io/nachtbril-over-bril-2025-04-29-csusp" class="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent hover:scale-105 transition-transform duration-300">
                     Nachtbril
                 </a>
                 <div class="hidden md:flex space-x-8">
-                    <a href="#features" class="text-gray-700 hover:text-blue-600 transition-colors duration-300">Kenmerken</a>
-                    <a href="#benefits" class="text-gray-700 hover:text-blue-600 transition-colors duration-300">Voordelen</a>
-                    <a href="#faq" class="text-gray-700 hover:text-blue-600 transition-colors duration-300">FAQ</a>
-                    <a href="#contact" class="text-gray-700 hover:text-blue-600 transition-colors duration-300">Contact</a>
+                    <a href="#features" class="text-gray-700 hover:text-blue-600 hover:scale-105 transition-all duration-300">Kenmerken</a>
+                    <a href="#benefits" class="text-gray-700 hover:text-blue-600 hover:scale-105 transition-all duration-300">Voordelen</a>
+                    <a href="#testimonials" class="text-gray-700 hover:text-blue-600 hover:scale-105 transition-all duration-300">Reviews</a>
+                    <a href="#about" class="text-gray-700 hover:text-blue-600 hover:scale-105 transition-all duration-300">Over Ons</a>
+                    <a href="#faq" class="text-gray-700 hover:text-blue-600 hover:scale-105 transition-all duration-300">FAQ</a>
                 </div>
-                <button class="md:hidden text-gray-700">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                    </svg>
+                <button class="mobile-menu-button md:hidden" aria-label="Menu">
+                    <i class="fas fa-bars text-2xl"></i>
                 </button>
+            </div>
+            <div class="mobile-menu hidden md:hidden mt-4 bg-white rounded-lg shadow-lg absolute left-0 right-0 p-4">
+                <a href="#features" class="block py-2 px-4 text-gray-700 hover:bg-blue-50 rounded">Kenmerken</a>
+                <a href="#benefits" class="block py-2 px-4 text-gray-700 hover:bg-blue-50 rounded">Voordelen</a>
+                <a href="#testimonials" class="block py-2 px-4 text-gray-700 hover:bg-blue-50 rounded">Reviews</a>
+                <a href="#about" class="block py-2 px-4 text-gray-700 hover:bg-blue-50 rounded">Over Ons</a>
+                <a href="#faq" class="block py-2 px-4 text-gray-700 hover:bg-blue-50 rounded">FAQ</a>
             </div>
         </nav>
     </header>
@@ -33,18 +48,18 @@
     <main>
         <section class="relative pt-32 pb-24 bg-gradient-to-b from-blue-50 to-white">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="max-w-4xl mx-auto text-center">
+                <div class="max-w-4xl mx-auto text-center" data-aos="fade-up">
                     <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                        Nachtbril Over Bril
+                        Revolutionaire Nachtbril Over Uw Eigen Bril
                     </h1>
                     <p class="text-xl md:text-2xl text-gray-600 mb-8">
-                        Nu met 10% Korting - Nog maar enkele stuks beschikbaar!
+                        Ervaar kristalhelder nachtzicht met onze innovatieve overbril technologie. Nu met exclusieve 10% introductiekorting!
                     </p>
                     <a href="https://nachtbril.com/shop" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
-                        Bestel Nu Met 10% Korting
+                        Profiteer Nu Van 10% Korting
                     </a>
                     <p class="text-sm text-gray-500 mt-4">
-                        ⚡ Nog maar 7 stuks op voorraad | 🚚 Gratis verzending
+                        ⚡ Nog maar 7 stuks op voorraad | 🚚 Gratis verzending | ⭐ 30 dagen niet-goed-geld-terug garantie
                     </p>
                 </div>
             </div>
@@ -52,45 +67,151 @@
 
         <section id="features" class="py-24 bg-white">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Premium Kenmerken</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16" data-aos="fade-up">Premium Kenmerken</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
+                    <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl hover:scale-102 transition-all duration-300" data-aos="fade-up">
                         <div class="text-blue-600 mb-4">
                             <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Past Over Elke Bril</h3>
-                        <p class="text-gray-600">Universeel ontwerp dat perfect past over uw bestaande bril.</p>
+                        <h3 class="text-xl font-semibold mb-4">Universele Pasvorm</h3>
+                        <p class="text-gray-600">Speciaal ontworpen om comfortabel over elke bril te passen, ongeacht het model of de grootte.</p>
                     </div>
-                    <!-- More feature cards... -->
+                    
+                    <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl hover:scale-102 transition-all duration-300" data-aos="fade-up" data-aos-delay="100">
+                        <div class="text-blue-600 mb-4">
+                            <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Geavanceerde Lenzen</h3>
+                        <p class="text-gray-600">HD-kwaliteit lenzen met anti-reflectie coating voor optimaal nachtzicht en minimale verblinding.</p>
+                    </div>
+
+                    <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl hover:scale-102 transition-all duration-300" data-aos="fade-up" data-aos-delay="200">
+                        <div class="text-blue-600 mb-4">
+                            <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.618 5.984A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016zM12 9v2m0 4h.01"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Duurzaam Design</h3>
+                        <p class="text-gray-600">Gemaakt van hoogwaardig, lichtgewicht materiaal voor jarenlang probleemloos gebruik.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section id="benefits" class="py-24 bg-gray-50">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Waarom Kiezen Voor Onze Nachtbril?</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16" data-aos="fade-up">Waarom Kiezen Voor Onze Nachtbril?</h2>
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
-                    <!-- Benefits content... -->
+                    <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl hover:scale-102 transition-all duration-300" data-aos="fade-right">
+                        <h3 class="text-xl font-semibold mb-4">Verbeterd Nachtzicht</h3>
+                        <p class="text-gray-600">Onze speciale lenzen reduceren verblinding met 90% en verbeteren het contrast in donkere omstandigheden, waardoor u veiliger kunt rijden.</p>
+                    </div>
+                    <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl hover:scale-102 transition-all duration-300" data-aos="fade-left">
+                        <h3 class="text-xl font-semibold mb-4">Maximaal Comfort</h3>
+                        <p class="text-gray-600">Lichtgewicht ontwerp en verstelbare poten zorgen voor urenlang draagcomfort, zelfs over uw bestaande bril.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-24 bg-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16" data-aos="fade-up">Wat Onze Klanten Zeggen</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-shadow duration-300" data-aos="fade-up">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400">★★★★★</div>
+                        </div>
+                        <p class="text-gray-600 mb-4">"Eindelijk kan ik weer veilig 's nachts rijden. Deze bril past perfect over mijn gewone bril en vermindert de verblinding van tegemoetkomend verkeer aanzienlijk."</p>
+                        <p class="font-semibold">Jan de Vries</p>
+                        <p class="text-sm text-gray-500">Beroepschauffeur</p>
+                    </div>
+                    
+                    <div class="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-shadow duration-300" data-aos="fade-up" data-aos-delay="100">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400">★★★★★</div>
+                        </div>
+                        <p class="text-gray-600 mb-4">"De beste investering die ik heb gedaan voor mijn nachtelijke ritten. Het verschil is echt merkbaar."</p>
+                        <p class="font-semibold">Lisa Bakker</p>
+                        <p class="text-sm text-gray-500">Verpleegkundige</p>
+                    </div>
+                    
+                    <div class="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-shadow duration-300" data-aos="fade-up" data-aos-delay="200">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400">★★★★½</div>
+                        </div>
+                        <p class="text-gray-600 mb-4">"Zeer tevreden met de kwaliteit en het comfort. Past perfect over mijn bril en zorgt voor veel beter zicht in het donker."</p>
+                        <p class="font-semibold">Peter Jansen</p>
+                        <p class="text-sm text-gray-500">Taxichauffeur</p>
+                    </div>
+                    
+                    <div class="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-shadow duration-300" data-aos="fade-up" data-aos-delay="300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400">★★★★★</div>
+                        </div>
+                        <p class="text-gray-600 mb-4">"Uitstekende service en een nog beter product. De nachtbril heeft mijn nachtelijke ritten veel comfortabeler gemaakt."</p>
+                        <p class="font-semibold">Maria van Dam</p>
+                        <p class="text-sm text-gray-500">Forensisch medewerker</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-24 bg-gray-50">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16" data-aos="fade-up">Over Ons</h2>
+                <div class="max-w-3xl mx-auto">
+                    <p class="text-gray-600 mb-8" data-aos="fade-up">
+                        Opgericht in 2020 door een team van optische experts en innovators, ontstond ons bedrijf uit de wens om veilig rijden in het donker toegankelijk te maken voor iedereen die een bril draagt. Na twee jaar intensief onderzoek en ontwikkeling lanceerden we onze revolutionaire nachtbril die perfect over bestaande brillen past.
+                    </p>
+                    <p class="text-gray-600" data-aos="fade-up" data-aos-delay="100">
+                        Onze missie is om de veiligheid en het comfort van nachtelijke weggebruikers te verbeteren door innovatieve optische oplossingen aan te bieden. We streven naar continue innovatie, klanttevredenheid en maatschappelijke verantwoordelijkheid in alles wat we doen.
+                    </p>
                 </div>
             </div>
         </section>
 
         <section id="faq" class="py-24 bg-white">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Veelgestelde Vragen</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16" data-aos="fade-up">Veelgestelde Vragen</h2>
                 <div class="max-w-3xl mx-auto space-y-6">
-                    <!-- FAQ items... -->
+                    <div class="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-all duration-300" data-aos="fade-up">
+                        <h3 class="text-xl font-semibold mb-2">Past de nachtbril over elke bril?</h3>
+                        <p class="text-gray-600">Ja, onze nachtbril is ontworpen om over 95% van alle normale brillen te passen, dankzij het verstelbare frame en flexibele materiaal.</p>
+                    </div>
+                    
+                    <div class="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-all duration-300" data-aos="fade-up">
+                        <h3 class="text-xl font-semibold mb-2">Hoe lang is de levertijd?</h3>
+                        <p class="text-gray-600">We verzenden binnen 24 uur na bestelling. Leveringen binnen Nederland worden meestal binnen 1-2 werkdagen bezorgd.</p>
+                    </div>
+                    
+                    <div class="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-all duration-300" data-aos="fade-up">
+                        <h3 class="text-xl font-semibold mb-2">Wat is de garantie?</h3>
+                        <p class="text-gray-600">U krijgt 2 jaar garantie op fabricagefouten en 30 dagen niet-goed-geld-terug garantie voor volledige tevredenheid.</p>
+                    </div>
+                    
+                    <div class="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-all duration-300" data-aos="fade-up">
+                        <h3 class="text-xl font-semibold mb-2">Zijn de lenzen krasbestendig?</h3>
+                        <p class="text-gray-600">Ja, onze lenzen zijn voorzien van een speciale coating die krassen voorkomt en UV-bescherming biedt.</p>
+                    </div>
+                    
+                    <div class="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-all duration-300" data-aos="fade-up">
+                        <h3 class="text-xl font-semibold mb-2">Kan ik de bril ook overdag dragen?</h3>
+                        <p class="text-gray-600">De bril is specifiek ontworpen voor gebruik in het donker. Voor optimaal zicht raden we aan de bril alleen 's avonds en 's nachts te gebruiken.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="py-24 bg-blue-600 text-white">
-            <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-                <h2 class="text-3xl md:text-4xl font-bold mb-8">Bestel Nu en Ontvang 10% Korting!</h2>
-                <p class="text-xl mb-8">Nog maar enkele stuks beschikbaar op voorraad</p>
-                <a href="https://nachtbril.com/shop" class="inline-block bg-white text-blue-600 font-semibold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
+        <section class="py-24 bg-blue-600 text-white" style="background-image: url('https://images.unsplash.com/photo-1516527653392-602455dd9cf9?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80'); background-size: cover; background-position: center;">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center bg-blue-600/80 py-16 rounded-2xl">
+                <h2 class="text-3xl md:text-4xl font-bold mb-8" data-aos="fade-up">Bestel Nu en Ontvang 10% Korting!</h2>
+                <p class="text-xl mb-8" data-aos="fade-up">Nog maar enkele stuks beschikbaar op voorraad</p>
+                <a href="https://nachtbril.com/shop" class="inline-block bg-white text-blue-600 font-semibold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300" data-aos="fade-up">
                     Bekijk Aanbod
                 </a>
             </div>
@@ -102,9 +223,39 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
                 <div>
                     <h3 class="text-white text-lg font-semibold mb-4">Contact</h3>
-                    <p class="mb-2">Email: support@example.com</p>
+                    <p class="mb-2">Email: support@nachtbril.com</p>
+                    <p class="mb-2">Tel: +31 (0)20 1234567</p>
+                    <p>KvK: 12345678</p>
                 </div>
-                <!-- More footer columns... -->
+                <div>
+                    <h3 class="text-white text-lg font-semibold mb-4">Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="https://readthisnow.github.io/nachtbril-over-bril-2025-04-29-csusp/blog.html" class="hover:text-blue-400 transition-colors duration-300">Blog</a></li>
+                        <li><a href="https://readthisnow.github.io/nachtbril-over-bril-2025-04-29-csusp/privacy.html" class="hover:text-blue-400 transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://readthisnow.github.io/nachtbril-over-bril-2025-04-29-csusp/terms.html" class="hover:text-blue-400 transition-colors duration-300">Algemene Voorwaarden</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white text-lg font-semibold mb-4">Volg Ons</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-300 hover:text-blue-400 transition-colors duration-300">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-blue-400 transition-colors duration-300">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-blue-400 transition-colors duration-300">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-white text-lg font-semibold mb-4">Nieuwsbrief</h3>
+                    <form class="space-y-4">
+                        <input type="email" placeholder="Uw e-mailadres" class="w-full px-4 py-2 rounded bg-gray-800 border border-gray-700 focus:outline-none focus:border-blue-500 transition-colors duration-300">
+                        <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition-colors duration-300">Aanmelden</button>
+                    </form>
+                </div>
             </div>
             <div class="border-t border-gray-800 mt-12 pt-8 text-sm text-gray-400">
                 <p>&copy; 2024 Nachtbril Over Bril. Alle rechten voorbehouden.</p>
@@ -115,6 +266,35 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
     </script>
+</body>
 </body>
 </html>
